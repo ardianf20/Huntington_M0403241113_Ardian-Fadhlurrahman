@@ -1,0 +1,84 @@
+:root {
+    --mainColor : #252734;
+    --secondColor : #333646;
+    --acsentColor : #FF9100;
+
+}
+
+body {
+    font-family: 'ubuntu', sans-serif;
+    background-color: var(--mainColor);
+    min-height: 900px;
+}
+
+section h1 {
+    color: white;
+    font-size: 2.5rem;
+    
+}
+
+/* Navbar  */
+.nav-link.active {
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+}
+/* End Navbar  */
+
+/* Hero Section  */
+.color-acsent {
+    color: var(--acsentColor);
+}
+
+#hero {
+    color: #fff;
+    min-height: 100vh;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero h2 {
+    font-weight: 300;
+    color: #fff;
+}
+
+#hero p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* CTA  */
+.btn-custom1 {
+    background-color: var(--acsentColor);
+    color: white;
+    text-align: center;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.btn-custom1:hover {
+    box-shadow: 0 0 5px rgba(255, 166, 0, .8);
+}
+
+/* about  */
+hr {
+    width: 35%;
+    height: 5px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#about {
+    color: white;
+    min-height: 300px;
+    background-color: var(--secondColor);
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+/* End Hero Section  */
